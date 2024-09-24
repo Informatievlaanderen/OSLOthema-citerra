@@ -2,7 +2,7 @@
   {
     "name": "citerra-ap",
     "type": "ap",
-    "eap": "MijnApplicatieprofiel-AP.eap",
+    "eap": "MijnApplicatieProfiel-AP.eap",
     "diagram": "Citerra",
     "template": "mijn-applicatieprofiel-ap.j2",
     "title": "OSLO Citerra",
