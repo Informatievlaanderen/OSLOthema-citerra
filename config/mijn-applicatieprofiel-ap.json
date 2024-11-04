@@ -2,8 +2,8 @@
   {
     "name": "citerra-ap",
     "type": "ap",
-    "eap": "MijnApplicatieProfiel-AP.eap",
-    "diagram": "Citerra",
+    "eap": "Mobiliteitsvergunning.eap",
+    "diagram": "Mobiliteitsvergunning-v2",
     "template": "mijn-applicatieprofiel-ap.j2",
     "title": "OSLO Citerra",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
