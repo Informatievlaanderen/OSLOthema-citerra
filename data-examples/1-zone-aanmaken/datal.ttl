@@ -1,0 +1,67 @@
+@prefix citerra: <https://test.data.vlaanderen.be/ns/citerra#> .
+@prefix : <http://example.com/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix m8g: <http://data.europa.eu/m8g/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix ov: <https://data.vlaanderen.be/ns/omgevingsvergunning#> .
+@prefix ps: <http://vocab.belgif.be/ns/publicservice#> .
+@prefix mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+
+:MobiliteitsdienstGent a m8g:PublicOrganisation.
+
+:ToegangTotZoneGent a cpsv:PublicService;
+  m8g:hasCompetentAuthority :MobiliteitsdienstGent;
+  adms:status :Actief;
+  cpsv:follows :ToegangTotZoneGentProcedure.
+
+:Vergunningsvoorwaarde a m8g:Requirement;
+  dc:description "Er moet een vergunning zijn voor het voertuig.".
+
+:Inwondersvoorwaarde a m8g:Requirement;
+  dc:description "De bestuurder van het voertuig moet inwoner zijn van de zone.".
+
+:Zonevoorwaarde a m8g:Requirement;
+  dc:terms "Dit is enkel van toepassing op de Zone in Gent.".
+
+:VergunningVoorZoneGent a cpsv:PublicService;
+  m8g:hasCompetentAuthority :MobiliteitsdienstGent;
+  ps:hasRequirement :AND2.
+
+:AND1 a citerra:VoorwaardeCollectie;
+  citerra:operatie :AND;
+  m8g:hasRequirement :Zonevoorwaarde, :OR1.
+
+:OR1 a citerra:VoorwaardeCollectie;
+  citerra:operatie :OR;
+  m8g:hasRequirement :Vergunningsvoorwaarde, :Inwondersvoorwaarde.
+
+:AND2 a citerra:VoorwaardeCollectie;
+  citerra:operatie :AND;
+  m8g:hasRequirement :Zonevoorwaarde, :AND3.
+
+:AND3 a citerra:VoorwaardeCollectie;
+  citerra:operatie :AND;
+  m8g:hasRequirement :Adreswijzigingsvoorwaard, :Boorddocumentenvoorwaarde.
+
+:Adreswijzigingsvoorwaarde a m8g:Requirement.
+
+:Boorddocumentenvoorwaarde a m8g:Requirement.
+
+:ToegangTotZoneGentProcedure a ov:Procedure;
+  dc:hasPart :NietVoldaanAanVoorwaardenProcedurestap.
+
+:NietVoldaanAanVoorwaardenProcedurestap a citerra:ConsumeerPubliekeDienstverleningstap;
+  citerra:dienstverlening :VergunningVoorZoneGent.
+
+:Gent a mobiliteit:Zone;
+  rdfs:label "Korenmarkt".
+
+# De relatie tussen :Zonevoorwaarde en :Gent kan gemaakt worden via http://data.europa.eu/m8g/InformationConcept,
+# maar dit is hier niet verder uitgewerkt.
+
+:AND a skos:Concept.
+:OR a skos:Concept.
+:Actief a skos:Concept.

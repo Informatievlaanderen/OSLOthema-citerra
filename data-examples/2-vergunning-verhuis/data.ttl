@@ -101,7 +101,6 @@
 
 :AND a skos:Concept.
 :OR a skos:Concept.
-:Actief a skos:Concept.
 :Normaal a skos:Concept.
 :Personenwagen a skos:Concept.
 :Langlopend a skos:Concept.
