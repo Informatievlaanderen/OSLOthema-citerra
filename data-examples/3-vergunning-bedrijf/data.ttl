@@ -1,0 +1,84 @@
+@prefix citerra: <https://test.data.vlaanderen.be/ns/citerra#> .
+@prefix : <http://example.com/> .
+@prefix dossier: <https://data.vlaanderen.be/ns/dossier#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix besluit: <http://data.vlaanderen.be/ns/besluit#> .
+@prefix ov: <https://data.vlaanderen.be/ns/omgevingsvergunning#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+:EvenementProject a dbo:Project.
+:EvenementDossier1 a dossier:Dossier.
+:EvenementDossier2 a dossier:Dossier.
+
+:EvenementZaak1 a dbo:Case;
+  dc:isPartOf :EvenementProject;
+  ov:dossier :EvenementDossier1;
+  ov:zaakhandeling :BedrijfsVoertuigVergunning1, :BedrijfsVoertuigAanvraag1.
+
+:EvenementZaak2 a dbo:Case;
+  dc:isPartOf :EvenementProject;
+  ov:dossier :EvenementDossier2;
+  ov:zaakhandeling :BedrijfsVoertuigVergunning2, :BedrijfsVoertuigAanvraag2.
+
+:BedrijfsVoertuigVergunning1 a besluit:Vergunning;
+  adms:identifier :V_002;
+	ov:verantwoordelijke [
+		dc:title "Stad Gent"
+	];
+  ov:inhoud :ToegangTotAutoluweZone2.
+
+:BedrijfsVoertuigVergunning2 a besluit:Vergunning;
+  adms:identifier :V_003;
+  ov:verantwoordelijke [
+	  dc:title "Stad Gent"
+  ];
+  ov:inhoud :ToegangTotAutoluweZone3.
+
+:BedrijfsVoertuigAanvraag1 a ov:Aanvraag;
+  adms:identifier :A_002;
+  ov:verantwoordelijke [
+		dc:title "Leuke Evenementen NV"
+	];
+	ov:ingangsdatum "2024-10-02";
+  ov:inhoud :ToegangTotAutoluweZone2.
+
+:BedrijfsVoertuigAanvraag2 a ov:Aanvraag;
+  adms:identifier :A_003;
+	ov:verantwoordelijke [
+		dc:title "Leuke Evenementen NV"
+	];
+	ov:ingangsdatum "2024-10-02";
+	ov:inhoud :ToegangTotAutoluweZone3.
+
+:ToegangTotAutoluweZone2 a citerra:Toegang;
+  dc:type :Kortlopend;
+  dc:extent [
+    a time:TemporalDuration
+  ];
+  ov:voertuig :Voertuig2;
+  ov:voorwerp :RijdenInAutoluweZone2.
+
+:ToegangTotAutoluweZone3 a citerra:Toegang;
+  dc:type :Kortlopend;
+  dc:extent [
+    a time:TemporalDuration
+  ];
+  ov:voertuig :Voertuig3;
+  ov:voorwerp :RijdenInAutoluweZone2.
+
+:Voertuig2 a schema:Vehicle;
+  dc:type :Bestelwagen;
+  adms:identifier :1_XYZ_222.
+
+:Voertuig3 a schema:Vehicle;
+  dc:type :Bestelwagen;
+  adms:identifier :1_XYZ_111.
+
+:RijdenInAutoluweZone2 a ov:Activiteit.
+
+:Bestelwagen a skos:Concept.
+:Kortlopend a skos:Concept.
