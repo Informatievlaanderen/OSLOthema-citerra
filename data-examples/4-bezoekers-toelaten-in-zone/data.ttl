@@ -1,0 +1,45 @@
+@prefix citerra: <https://test.data.vlaanderen.be/ns/citerra#> .
+@prefix : <http://example.com/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix m8g: <http://data.europa.eu/m8g/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+
+:MobiliteitsdienstGent a m8g:PublicOrganisation.
+
+:ToegangTotZoneGent a cpsv:PublicService;
+  m8g:hasCompetentAuthority :MobiliteitsdienstGent;
+  adms:status :Actief.
+
+:Vergunningsvoorwaarde a m8g:Requirement;
+  dc:description "Er moet een vergunning zijn voor het voertuig.".
+
+:Inwondersvoorwaarde a m8g:Requirement;
+  dc:description "De bestuurder van het voertuig moet inwoner zijn van de zone.".
+
+:Bezoekersvoorwaarde a m8g:Requirement;
+  dc:description "De bestuurder van het voertuig moet een bezoeker zijn van een inwoner zijn van de zone.".
+
+:Zonevoorwaarde a m8g:Requirement;
+  dc:terms "Dit is enkel van toepassing op de Zone in Gent.".
+
+:AND1 a citerra:VoorwaardeCollectie;
+  citerra:operatie :AND;
+  m8g:hasRequirement :Zonevoorwaarde, :OR1.
+
+:OR1 a citerra:VoorwaardeCollectie;
+  citerra:operatie :OR;
+  m8g:hasRequirement :Vergunningsvoorwaarde, :Inwondersvoorwaarde, :Bezoekersvoorwaarde.
+
+:Gent a mobiliteit:Zone;
+  rdfs:label "Korenmarkt".
+
+# De relatie tussen :Zonevoorwaarde en :Gent kan gemaakt worden via http://data.europa.eu/m8g/InformationConcept,
+# maar dit is hier niet verder uitgewerkt.
+
+:AND a skos:Concept.
+:OR a skos:Concept.
+:Actief a skos:Concept.
