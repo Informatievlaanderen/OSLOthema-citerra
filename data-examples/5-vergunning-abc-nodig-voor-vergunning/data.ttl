@@ -1,0 +1,43 @@
+@prefix citerra: <https://test.data.vlaanderen.be/ns/citerra#> .
+@prefix : <http://example.com/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix m8g: <http://data.europa.eu/m8g/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix ps: <http://vocab.belgif.be/ns/publicservice#> .
+
+:MobiliteitsdienstGent a m8g:PublicOrganisation.
+
+:VergunningVoorZoneGent a cpsv:PublicService;
+  m8g:hasCompetentAuthority :MobiliteitsdienstGent;
+  ps:hasRequirement :AND2.
+
+:Vergunningsvorwaarde2 a m8g:Requirement;
+  dc:description "Voorleggen van Vergunning ABC is vereist.".
+
+:Zonevoorwaarde a m8g:Requirement;
+  dc:terms "Dit is enkel van toepassing op de Zone in Gent.".
+
+:Gent a mobiliteit:Zone;
+  rdfs:label "Korenmarkt".
+
+# De relatie tussen :Zonevoorwaarde en :Gent kan gemaakt worden via http://data.europa.eu/m8g/InformationConcept,
+# maar dit is hier niet verder uitgewerkt.
+
+:AND2 a citerra:VoorwaardeCollectie;
+  citerra:operatie :AND;
+  m8g:hasRequirement :Zonevoorwaarde, :AND3.
+
+:AND3 a citerra:VoorwaardeCollectie;
+  citerra:operatie :AND;
+  m8g:hasRequirement :Adreswijzigingsvoorwaard, :Boorddocumentenvoorwaarde.
+
+:Adreswijzigingsvoorwaarde a m8g:Requirement.
+:Boorddocumentenvoorwaarde a m8g:Requirement.
+:Vergunningsvoorwaarde2 a m8g:Requirement;
+  dc:description "Voorleggen van Vergunning ABC is vereist".
+
+:AND a skos:Concept.
