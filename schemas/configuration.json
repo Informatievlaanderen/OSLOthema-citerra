@@ -23,11 +23,10 @@
             "name": {
               "type": "string"
             },
-            "uri": {
+            "resourceReference": {
               "type": "string"
             }
           },
-          "required": ["name", "uri"],
           "additionalProperties": false
         },
         "publicationDate": {
@@ -142,7 +141,10 @@
         "presentations",
         "dateOfRegistration",
         "dateOfAcknowledgementByWorkingGroup",
-        "dateOfAcknowledgementBySteeringCommittee"
+        "dateOfAcknowledgementBySteeringCommittee",
+        "datePublicReviewStart",
+        "datePublicReviewEnd",
+        "endOfPublicationDate"
       ],
       "additionalProperties": false
     }
