@@ -3,7 +3,7 @@ export interface Configuration {
   category: string;
   usage: string;
   status: string;
-  responsibleOrganisation: Document;
+  responsibleOrganisation: Document[];
   publicationDate: string;
   descriptionFileName: string;
   specificationDocuments: Document[];
