@@ -1,4 +1,29 @@
-Voornaam;Naam;Affiliatie;E-mail;Website;MijnKolom;
-AuteurVoornaam;AuteurNaam;AuteurAffiliatie;auteurvoornaam.auteurnaam@auteurdomein;https://auteurwebsiteurl;A;
-EditorVoornaam;EditorNaam;EditorAffiliatie;editorvoornaam.editornaam@editordomein;https://editorwebsiteurl;E;
-MedewerkerVoornaam;MedewerkerNaam;MedewerkerAffiliatie;medewerkervoornaam.medewerkernaam@medewerkerdomein;https://medewerkerwebsiteurl;C;
+Voornaam;Naam;Affiliatie;E-mail;Website;MijnKolom
+Daniel;Sevenhans;Digipolis;daniel.sevenhans@digipolis.be;https://digipolisantwerpen.be/;A
+Koenraad;Verduyn;Movias;koenraad.verduyn@movias.eu;https://movias.eu/;A
+Pieter;Heyvaert;Digitaal Vlaanderen;pieter.heyvaert@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Yaron;Dassonneville;Digitaal Vlaanderen;yaron.dassonneville@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Aline;Verbrugge;Digitaal Vlaanderen;aline.verbrugge@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Geert;Thijs;Digitaal Vlaanderen;geert.thijs@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Ziggy;Vanlishout;Digitaal Vlaanderen;ziggy.vanlishout@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Laurens;Vercauteren;Digitaal Vlaanderen;laurens.vercauteren@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Eveline;Vlassenroot;Digitaal Vlaanderen;eveline.vlassenroot@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Brecht;Van de Vyvere;Agentschap Binnenlands Bestuur;;https://www.vlaanderen.be/agentschap-binnenlands-bestuur;C
+Kristof;Daenen;Stad Antwerpen;;http://data.lblod.info/id/bestuurseenheden/670db1d66c0de3b931962e1044033ccfa9d6e3023aa9828a5f252c3bc69bd32c;C
+Stef;Nielandt;Stad Antwerpen;;http://data.lblod.info/id/bestuurseenheden/670db1d66c0de3b931962e1044033ccfa9d6e3023aa9828a5f252c3bc69bd32c;C
+Joris;Pieters;Stad Gent;;http://data.lblod.info/id/bestuurseenheden/353234a365664e581db5c2f7cc07add2534b47b8e1ab87c821fc6e6365e6bef5;C
+Sophie;Adriaens;Stad Leuven;;http://data.lblod.info/id/bestuurseenheden/c648ea5d12626ee3364a02debb223908a71e68f53d69a7a7136585b58a083e77;C
+Katrijn;Pipijn;Stad Leuven;;http://data.lblod.info/id/bestuurseenheden/c648ea5d12626ee3364a02debb223908a71e68f53d69a7a7136585b58a083e77;C
+Meredith;Van Hove;Stad Leuven;;http://data.lblod.info/id/bestuurseenheden/c648ea5d12626ee3364a02debb223908a71e68f53d69a7a7136585b58a083e77;C
+Claudia;Carrissemoux;Stad Kortrijk;;;C
+Jeroen;De Wilde;Be-Mobile;;https://www.be-mobile.com/;C
+Miroslav;Kovalenko;Be-Mobile;;https://www.be-mobile.com/;C
+Simon;Michels;Be-Mobile;;https://www.be-mobile.com/;C
+Wouter;Van de Wiele;Be-Mobile;;https://www.be-mobile.com/;C
+Dries;Van Bever;IMEC;;https://www.imec.be/nl;C
+Peter;Buytaert;Cronos;;https://cronos-groep.be/;C
+Chris;Ceustermans;Gewestelijke Overheidsdienst Brussel;;https://overheidsdienst.brussels/;C
+Paul;David;Mobiliteit Brussel;;https://mobilite-mobiliteit.brussels/nl;C
+Berdien;De Roo;Geosparc;;https://www.geosparc.com/nl/about;C
+Lieven;Mattheeuws;GENETEC;;https://www.genetec.com/;C
+Ivo;Cré;Polis Network;;https://www.polisnetwork.eu/;C
