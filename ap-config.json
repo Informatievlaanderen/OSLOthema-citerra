@@ -13,11 +13,16 @@
   "descriptionFileName": "description.md",
   "specificationDocuments": [
     {
-      "name": "Citerra Applicationprofiel",
+      "name": "Applicationprofiel Citerra",
       "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/citerra/ontwerpstandaard/2024-11-13/"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Vocabularium Citerra",
+      "resourceReference": "https://test.data.vlaanderen.be/doc/vocabularium/citerra/ontwerpstandaard/2024-11-13/"
+    }
+  ],
   "charter": {
     "name": "OSLO Citerra",
     "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/charter/Werkgroep%20charter%20OSLO_Citerra.docx"
