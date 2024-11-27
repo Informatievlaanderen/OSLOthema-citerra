@@ -5,7 +5,7 @@
     "eap": "OSLO-Mobiliteit-Intelligente-Toegang.eap",
     "diagram": "OSLO-Mobiliteit-Intelligente-Toegang-v2",
     "template": "mijn-applicatieprofiel-ap.j2",
-    "title": "OSLO Citerra",
+    "title": "OSLO Mobiliteit: Intelligente Toegang",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2024-09-24",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
