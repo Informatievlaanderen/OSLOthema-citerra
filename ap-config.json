@@ -1,5 +1,5 @@
 {
-  "title": "Applicatieprofiel Citerra",
+  "title": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "standaard-in-ontwikkeling",
@@ -13,18 +13,18 @@
   "descriptionFileName": "description.md",
   "specificationDocuments": [
     {
-      "name": "Applicationprofiel Citerra",
+      "name": "Applicationprofiel Mobiliteit: Intelligente Toegang",
       "resourceReference": "https://test.data.vlaanderen.be/doc/applicatieprofiel/citerra/ontwerpstandaard/2024-11-13/"
     }
   ],
   "documentation": [
     {
-      "name": "Vocabularium Citerra",
+      "name": "Vocabularium Mobiliteit: Intelligente Toegang",
       "resourceReference": "https://test.data.vlaanderen.be/doc/vocabularium/citerra/ontwerpstandaard/2024-11-13/"
     }
   ],
   "charter": {
-    "name": "OSLO Citerra",
+    "name": "Charter OSLO Citerra",
     "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/charter/Werkgroep%20charter%20OSLO_Citerra.docx"
   },
   "reports": [
@@ -35,6 +35,10 @@
     {
       "name": "Verslag thematische werkgroep 2 -  3 oktober 2024",
       "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/reports/20241003_ThematischeWerkgroep2_Verslag_OSLOCiterra.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 -  14 november 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/reports/20241114_ThematischeWerkgroep3_Verslag_OSLOCiterra.pdf"
     }
   ],
   "presentations": [
@@ -45,6 +49,10 @@
     {
       "name": "Presentatie thematische werkgroep 2 - 3 oktober 2024",
       "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/presentations/20241003_ThematicWorkshop2_Powerpoint_OSLOCiterra.pptx"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 14 november 2024",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-citerra/blob/standaardenregister/presentations/20241114_ThematicWorkshop3_Powerpoint_OSLOCiterra.pptx"
     }
   ],
   "dateOfRegistration": "",
