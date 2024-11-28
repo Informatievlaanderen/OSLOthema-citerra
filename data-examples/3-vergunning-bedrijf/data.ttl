@@ -1,4 +1,4 @@
-@prefix citerra: <https://test.data.vlaanderen.be/ns/citerra#> .
+@prefix mit: <https://test.data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#> .
 @prefix : <http://example.com/> .
 @prefix dossier: <https://data.vlaanderen.be/ns/dossier#> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
@@ -54,7 +54,7 @@
 	ov:ingangsdatum "2024-10-02";
 	ov:inhoud :ToegangTotAutoluweZone3.
 
-:ToegangTotAutoluweZone2 a citerra:Toegang;
+:ToegangTotAutoluweZone2 a mit:Toegang;
   dc:type :Kortlopend;
   dc:extent [
     a time:TemporalDuration
@@ -62,7 +62,7 @@
   ov:voertuig :Voertuig2;
   ov:voorwerp :RijdenInAutoluweZone2.
 
-:ToegangTotAutoluweZone3 a citerra:Toegang;
+:ToegangTotAutoluweZone3 a mit:Toegang;
   dc:type :Kortlopend;
   dc:extent [
     a time:TemporalDuration

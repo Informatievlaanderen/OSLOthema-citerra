@@ -1,4 +1,4 @@
-@prefix citerra: <https://test.data.vlaanderen.be/ns/citerra#> .
+@prefix mit: <https://test.data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#> .
 @prefix : <http://example.com/> .
 @prefix cpsv: <http://purl.org/vocab/cpsv#> .
 @prefix m8g: <http://data.europa.eu/m8g/> .
@@ -27,12 +27,12 @@
 # De relatie tussen :Zonevoorwaarde en :Gent kan gemaakt worden via http://data.europa.eu/m8g/InformationConcept,
 # maar dit is hier niet verder uitgewerkt.
 
-:AND2 a citerra:VoorwaardeCollectie;
-  citerra:operatie :AND;
+:AND2 a mit:VoorwaardeCollectie;
+  mit:operatie :AND;
   m8g:hasRequirement :Zonevoorwaarde, :AND3.
 
-:AND3 a citerra:VoorwaardeCollectie;
-  citerra:operatie :AND;
+:AND3 a mit:VoorwaardeCollectie;
+  mit:operatie :AND;
   m8g:hasRequirement :Adreswijzigingsvoorwaard, :Boorddocumentenvoorwaarde.
 
 :Adreswijzigingsvoorwaarde a m8g:Requirement.
