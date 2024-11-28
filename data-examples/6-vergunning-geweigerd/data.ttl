@@ -1,0 +1,108 @@
+@prefix mit: <https://test.data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#> .
+@prefix : <http://example.com/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix m8g: <http://data.europa.eu/m8g/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix ov: <https://data.vlaanderen.be/ns/omgevingsvergunning#> .
+@prefix ps: <http://vocab.belgif.be/ns/publicservice#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix besluit: <http://data.vlaanderen.be/ns/besluit#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix dossier: <https://data.vlaanderen.be/ns/dossier#> .
+@prefix mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix schema: <https://schema.org/> .
+
+
+:MobiliteitsdienstGent a m8g:PublicOrganisation.
+
+:Vergunningsvoorwaarde a m8g:Requirement;
+  dc:description "Er moet een vergunning zijn voor het voertuig.".
+
+:Inwondersvoorwaarde a m8g:Requirement;
+  dc:description "De bestuurder van het voertuig moet inwoner zijn van de zone.".
+
+:Zonevoorwaarde a m8g:Requirement;
+  dc:terms "Dit is enkel van toepassing op de Zone in Gent.".
+
+:VergunningVoorZoneGent a cpsv:PublicService;
+  m8g:hasCompetentAuthority :MobiliteitsdienstGent;
+  ps:hasRequirement :AND2;
+  cpsv:follows :Vergunningsaanvraagprocedure.
+
+:Vergunningsaanvraagprocedure a ov:Procedure.
+
+:AND2 a mit:VoorwaardeCollectie;
+  mit:operatie :AND;
+  m8g:hasRequirement :Zonevoorwaarde, :AND3.
+
+:AND3 a mit:VoorwaardeCollectie;
+  mit:operatie :AND;
+  m8g:hasRequirement :Adreswijzigingsvoorwaarde, :Boorddocumentenvoorwaarde.
+
+:Adreswijzigingsvoorwaarde a m8g:Requirement.
+:Boorddocumentenvoorwaarde a m8g:Requirement.
+
+:VerhuisZaak a dbo:Case;
+  ov:procedure :Vergunningsaanvraagprocedure;
+  ov:zaakhandeling :MijnAanvraag, :MijnVergunning;
+  ov:dossier :VerhuisDossier.
+
+:MijnAanvraag a ov:Aanvraag;
+  dc:type :Normaal;
+  adms:identifier :A_001;
+  ov:verantwoordelijke [
+    dc:title "Pieter Heyvaert"
+  ];
+  ov:ingangsdatum "2024-10-02";
+  ov:inhoud :ToegangTotAutoluweZone1.
+
+:MijnVergunning a besluit:Vergunning;
+  adms:identifier :V_001;
+  ov:verantwoordelijke [
+		dc:title "Stad Gent"
+	];
+  ov:inhoud :ToegangTotAutoluweZone1.
+
+:Voertuig1 a schema:Vehicle;
+  dc:type :Personenwagen;
+  adms:identifier :1_ABC_123.
+
+:ToegangTotAutoluweZone1 a mit:Toegang;
+  dc:type :Langlopend;
+  dc:extent [
+    a time:TemporalDuration
+  ];
+  ov:voorwerp :RijdenInAutoluweZone1.
+
+:RijdenInAutoluweZone1 a ov:Activiteit;
+  dc:type :RijdenInAutoluweZone;
+  locn:location :Gent.
+
+:VerhuisDossier a dossier:Dossier;
+  dossier:Dossier.bestaatUit :MijnnAdreswijzing, :MijnBoorddocumenten.
+
+:MijnnAdreswijzing a m8g:Evidence;
+	dc:type :AangifteAdreswijzing;
+	dc:title "Mijn aangifte adreswijzing";
+	m8g:supportsRequirement :Adreswijzigingsvoorwaarde.
+
+:Gent a mobiliteit:Zone;
+  rdfs:label "Korenmarkt".
+
+:WeigeringVanVergunning a mit:Weigering;
+  adms:identifier :W_001;
+  ov:ingangsdatum "2024-10-03";
+  ov:inhoud :ToegangTotAutoluweZone1.
+
+:AND a skos:Concept.
+:OR a skos:Concept.
+:Normaal a skos:Concept.
+:Personenwagen a skos:Concept.
+:Langlopend a skos:Concept.
+:RijdenInAutoluweZone a skos:Concept.
+:AangifteAdreswijzing a skos:Concept.
+:Boorddocumenten a skos:Concept.
