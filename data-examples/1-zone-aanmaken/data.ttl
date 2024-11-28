@@ -1,4 +1,4 @@
-@prefix citerra: <https://test.data.vlaanderen.be/ns/citerra#> .
+@prefix mit: <https://test.data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#> .
 @prefix : <http://example.com/> .
 @prefix cpsv: <http://purl.org/vocab/cpsv#> .
 @prefix skos: <https://www.w3.org/2004/02/skos/core#> .
@@ -15,11 +15,22 @@
 :ToegangTotZoneGent a cpsv:PublicService;
   m8g:hasCompetentAuthority :MobiliteitsdienstGent;
   ps:hasRequirement :AND1;
-  adms:status :Actief;
-  cpsv:follows :ToegangTotZoneGentProcedure.
+  adms:status :Actief.
+
+:VergunningVoorZoneGent a cpsv:PublicService;
+  m8g:hasCompetentAuthority :MobiliteitsdienstGent;
+  mit:heeftOutputtype :Vergunningtype;
+  ps:hasRequirement :AND2.
 
 :Vergunningsvoorwaarde a m8g:Requirement;
-  dc:description "Er moet een vergunning zijn voor het voertuig.".
+  dc:description "Er moet een vergunning zijn voor het voertuig.";
+  m8g:hasEvidenceTypeList [
+    a m8g:EvidenceTypeList;
+    m8g:specifiesEvidenceType [
+      a m8g:EvidenceType;
+      m8g:evidenceTypeClassification :Vergunningtype
+    ]
+  ].
 
 :Inwondersvoorwaarde a m8g:Requirement;
   dc:description "De bestuurder van het voertuig moet inwoner zijn van de zone.".
@@ -27,35 +38,24 @@
 :Zonevoorwaarde a m8g:Requirement;
   dc:terms "Dit is enkel van toepassing op de Zone in Gent.".
 
-:VergunningVoorZoneGent a cpsv:PublicService;
-  m8g:hasCompetentAuthority :MobiliteitsdienstGent;
-  ps:hasRequirement :AND2.
-
-:AND1 a citerra:VoorwaardeCollectie;
-  citerra:operatie :AND;
+:AND1 a mit:VoorwaardeCollectie;
+  mit:operatie :AND;
   m8g:hasRequirement :Zonevoorwaarde, :OR1.
 
-:OR1 a citerra:VoorwaardeCollectie;
-  citerra:operatie :OR;
+:OR1 a mit:VoorwaardeCollectie;
+  mit:operatie :OR;
   m8g:hasRequirement :Vergunningsvoorwaarde, :Inwondersvoorwaarde.
 
-:AND2 a citerra:VoorwaardeCollectie;
-  citerra:operatie :AND;
+:AND2 a mit:VoorwaardeCollectie;
+  mit:operatie :AND;
   m8g:hasRequirement :Zonevoorwaarde, :AND3.
 
-:AND3 a citerra:VoorwaardeCollectie;
-  citerra:operatie :AND;
+:AND3 a mit:VoorwaardeCollectie;
+  mit:operatie :AND;
   m8g:hasRequirement :Adreswijzigingsvoorwaard, :Boorddocumentenvoorwaarde.
 
 :Adreswijzigingsvoorwaarde a m8g:Requirement.
-
 :Boorddocumentenvoorwaarde a m8g:Requirement.
-
-:ToegangTotZoneGentProcedure a ov:Procedure;
-  dc:hasPart :NietVoldaanAanVoorwaardenProcedurestap.
-
-:NietVoldaanAanVoorwaardenProcedurestap a citerra:ConsumeerPubliekeDienstverleningstap;
-  citerra:dienstverlening :VergunningVoorZoneGent.
 
 :Gent a mobiliteit:Zone;
   rdfs:label "Korenmarkt".
@@ -66,3 +66,4 @@
 :AND a skos:Concept.
 :OR a skos:Concept.
 :Actief a skos:Concept.
+:Vergunningtype a skos:Concept.
