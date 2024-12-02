@@ -74,8 +74,16 @@
 :ToegangTotAutoluweZone1 a mit:Toegang;
   dc:type :Langlopend;
   dc:extent [
-    a time:TemporalDuration
-  ];
+		a time:ProperInterval;
+		time:hasBeginning [
+			a time:Instant;
+			time:inXSDDateTime "2025-01-04T23:59:59"
+		];
+		time:hasEnd [
+			a time:Instant;
+			time:inXSDDateTime "2024-10-04T00:00:00"
+		]
+	];
   ov:voorwerp :RijdenInAutoluweZone1.
 
 :RijdenInAutoluweZone1 a ov:Activiteit;
