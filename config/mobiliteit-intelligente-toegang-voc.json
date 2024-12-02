@@ -1,10 +1,10 @@
 [
 {
-  "name": "citerra-voc",
+  "name": "mobiliteit-intelligente-toegang-voc",
   "type": "voc",
   "eap": "OSLO-Mobiliteit-Intelligente-Toegang.eap",
   "diagram": "OSLO-Mobiliteit-Intelligente-Toegang-v2",
-  "template": "mijn-vocabularium-voc.j2",
+  "template": "mobiliteit-intelligente-toegang-voc.j2",
   "title": "OSLO Mobiliteit: Intelligente Toegang",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2024-11-07",
