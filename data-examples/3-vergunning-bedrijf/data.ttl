@@ -57,7 +57,15 @@
 :ToegangTotAutoluweZone2 a mit:Toegang;
   dc:type :Kortlopend;
   dc:extent [
-    a time:TemporalDuration
+    a time:ProperInterval;
+    time:hasBeginning [
+      a time:Instant;
+      time:inXSDDateTime "2024-10-21T23:59:59"
+    ];
+    time:hasEnd [
+			a time:Instant;
+			time:inXSDDateTime "2024-10-17T00:00:00"
+		]
   ];
   ov:voertuig :Voertuig2;
   ov:voorwerp :RijdenInAutoluweZone2.
@@ -65,7 +73,15 @@
 :ToegangTotAutoluweZone3 a mit:Toegang;
   dc:type :Kortlopend;
   dc:extent [
-    a time:TemporalDuration
+    a time:ProperInterval;
+    time:hasBeginning [
+      a time:Instant;
+      time:inXSDDateTime "2024-10-21T23:59:59"
+    ];
+    time:hasEnd [
+			a time:Instant;
+			time:inXSDDateTime "2024-10-17T00:00:00"
+		]
   ];
   ov:voertuig :Voertuig3;
   ov:voorwerp :RijdenInAutoluweZone2.
