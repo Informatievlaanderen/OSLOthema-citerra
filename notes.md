@@ -19,14 +19,14 @@ In Omgevingsvergunning they probably didn't use an existing class representing a
 they needed a very specific legal definition. I didn't verify this with the authors of that application profile.
 
 The property "tijdsbestek" has as range Periode.
-In Omgevingsvergunning this was Tijdsduur
+In Omgevingsvergunning this is Tijdsduur
 but this is probably wrong.
 See https://github.com/Informatievlaanderen/OSLOthema-omgevingsvergunning/issues/52
 
 ## Bewijs
 
 We use http://data.europa.eu/m8g/Evidence
-because it works with the public services as definied by the Core Public Service Vocabulary.
+because it works with the public services as defined by the Core Public Service Vocabulary.
 In our case we Evidence as a concrete evidence and not an abstract description of what the characteristics are of 
 an evidence.
 
