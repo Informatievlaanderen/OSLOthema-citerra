@@ -36,7 +36,7 @@
   dc:description "De bestuurder van het voertuig moet inwoner zijn van de zone.".
 
 :Zonevoorwaarde a m8g:Requirement;
-  dc:terms "Dit is enkel van toepassing op de Zone in Gent.".
+  dc:description "Dit is enkel van toepassing op de Zone in Gent.".
 
 :AND1 a mit:VoorwaardeCollectie;
   mit:operatie :AND;
