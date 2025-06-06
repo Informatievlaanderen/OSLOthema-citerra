@@ -1,0 +1,69 @@
+<https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "5e020412-f695-48d8-b3dc-393214e2236c" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Reden"@nl ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Codelijst van redenen (functie, speciale toestand, activiteit...) binnen het kader van intelligente toegang."@nl .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/9bd64686-0add-412c-941f-12a19892b8d3> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "9bd64686-0add-412c-941f-12a19892b8d3" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Garage of standplaats"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Garage of standplaats"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/5131f4ca-87ee-48bf-972e-70165681b9c5> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "5131f4ca-87ee-48bf-972e-70165681b9c5" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Gehandicapt"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gehandicapt"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/db9f68b3-b4f9-4a7c-955f-dacb787aecb8> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "db9f68b3-b4f9-4a7c-955f-dacb787aecb8" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Laden/Lossen"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Laden/Lossen"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/abb5e6ab-20cc-46a9-b5c7-5fcd69f5a4ec> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "abb5e6ab-20cc-46a9-b5c7-5fcd69f5a4ec" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Levering"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Levering"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/63fc892d-68a7-4903-8122-8cbb5969ebf7> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "63fc892d-68a7-4903-8122-8cbb5969ebf7" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Verhuis (2 zones)"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Verhuis (2 zones)"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/cd44471b-b8f1-407e-9291-e69b6c8a1ec5> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "cd44471b-b8f1-407e-9291-e69b6c8a1ec5" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Mantelzorger"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mantelzorger"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/1edab828-6c62-426a-bb1d-e6bd8f2dde60> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "1edab828-6c62-426a-bb1d-e6bd8f2dde60" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Zorgverstrekker"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zorgverstrekker"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/5cb42139-e5cf-458d-89ed-dbf9745268d1> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "5cb42139-e5cf-458d-89ed-dbf9745268d1" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Tijdelijk minder mobiel"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tijdelijk minder mobiel"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
