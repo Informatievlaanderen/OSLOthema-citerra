@@ -1,6 +1,6 @@
 <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-TypeAanvrager>
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "37c887b0-136c-42bd-9292-355d3186efa9" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "e4671c49-ab7b-4e4f-aa4c-83f6a1683e52" ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Type Aanvrager"@nl ;
     <http://www.w3.org/2004/02/skos/core#definition> "Codelijst van type aanvragers binnen het kader van intelligente toegang."@nl .
 
