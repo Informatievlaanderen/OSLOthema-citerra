@@ -1,0 +1,37 @@
+<https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "e4671c49-ab7b-4e4f-aa4c-83f6a1683e52" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Relatie zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Codelijst van type relatie tot zone binnen het kader van intelligente toegang."@nl .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-RelatieZone/56949d34-75f4-4ba2-b223-789f6251ef1a> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "56949d34-75f4-4ba2-b223-789f6251ef1a" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Bewoner/Tweedeverblijf van een zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bewoner/Tweedeverblijf van een zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-RelatieZone/cd7bbca1-9925-4157-8dc3-d0ad31b6f29c> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "cd7bbca1-9925-4157-8dc3-d0ad31b6f29c" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Geen bewoner of bewoner/tweedeverblijf van een zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Geen bewoner of bewoner/tweedeverblijf  van een zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-RelatieZone/42b535c8-2d34-436f-a09a-f18564efb218> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "42b535c8-2d34-436f-a09a-f18564efb218" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Vestiging in zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vestiging in zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-RelatieZone/7cd1e8ec-e30f-41bc-aa57-4870298551e5> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "7cd1e8ec-e30f-41bc-aa57-4870298551e5" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Vestiging in zone of geen vestiging in zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vestiging in zone of geen vestiging in zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-RelatieZone> .
