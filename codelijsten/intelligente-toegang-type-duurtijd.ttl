@@ -1,3 +1,9 @@
+<https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-TypeDuurtijd>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "8302850a-ef79-474c-a5e0-3de1c411d5c2" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Type duurtijd"@nl ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Codelijst van type duurtijd dat een aanvraag rekening mee moet houden binnen het kader van intelligente toegang."@nl .
+
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-TypeDuurtijd/62aff69f-7ec1-41e4-a8b2-3427ffa3d42c>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "62aff69f-7ec1-41e4-a8b2-3427ffa3d42c" ;
