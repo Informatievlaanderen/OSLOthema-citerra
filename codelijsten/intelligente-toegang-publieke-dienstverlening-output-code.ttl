@@ -1,0 +1,13 @@
+<https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-PubliekeDienstverlening-OutputCode>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "03a9afec-fda6-4072-9da7-a73924be8cb4" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Publieke dienstverlening output code"@nl ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Codelijst van output code publieke dienstverlening binnen het kader van intelligente toegang."@nl .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-PubliekeDienstverlening-OutputCode/b0acbdf0-5dc7-4546-9265-7c3c6bb19da2> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "b0acbdf0-5dc7-4546-9265-7c3c6bb19da2" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Vergunning autoluwe zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-PubliekeDienstverlening-OutputCode> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vergunning autoluwe zone"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-PubliekeDienstverlening-OutputCode> .
