@@ -111,9 +111,9 @@
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/30c7cc38-80cd-42f5-a377-97be3499513e>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "30c7cc38-80cd-42f5-a377-97be3499513e" ;
-    <http://www.w3.org/2004/02/skos/core#definition> "School leerlngen vervoer"@nl ;
+    <http://www.w3.org/2004/02/skos/core#definition> "School leerlingen vervoer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "School leerlngen vervoer"@nl ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "School leerlingen vervoer"@nl ;
     <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/1725fe88-d4aa-425e-bf19-f6ba9491c1f2>
@@ -282,22 +282,6 @@
     <http://www.w3.org/2004/02/skos/core#definition> "Evenement opbouw/afbraak"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Evenement opbouw/afbraak"@nl ;
-    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
-
-<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/8c94aab9-213e-4bb3-86f5-fe2bbb22bd03>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "8c94aab9-213e-4bb3-86f5-fe2bbb22bd03" ;
-    <http://www.w3.org/2004/02/skos/core#definition> "Laden/Lossen"@nl ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Laden/Lossen"@nl ;
-    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
-
-<https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/d94be1a8-d98e-4ce1-996b-02e94729c05f>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "d94be1a8-d98e-4ce1-996b-02e94729c05f" ;
-    <http://www.w3.org/2004/02/skos/core#definition> "Levering"@nl ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Levering"@nl ;
     <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/8f800b0a-dca9-46d4-b3ab-43559e284c92>
