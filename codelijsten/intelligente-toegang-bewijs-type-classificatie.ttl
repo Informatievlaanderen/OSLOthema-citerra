@@ -1,0 +1,13 @@
+<https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-BewijsTypeClassificatie>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "f5370af2-5e56-48f4-9c1c-011e73d702e7" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bewijstypeclassificatie"@nl ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Codelijst van classificaties voor Bewijstype binnen het kader van intelligente toegang."@nl .
+
+<https://data.vlaanderen.be/id/concept/IntelligenteToegang-BewijsTypeClassificatie/2f3af6a9-00b9-4c3c-8c08-40c969dc0730> 
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "2f3af6a9-00b9-4c3c-8c08-40c969dc0730" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Vergunning inname openbaar domein"@nl ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-BewijsTypeClassificatie> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vergunning inname openbaar domein"@nl ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-BewijsTypeClassificatie> .
