@@ -111,9 +111,9 @@
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/30c7cc38-80cd-42f5-a377-97be3499513e>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "30c7cc38-80cd-42f5-a377-97be3499513e" ;
-    <http://www.w3.org/2004/02/skos/core#definition> "School leerlingen vervoer"@nl ;
+    <http://www.w3.org/2004/02/skos/core#definition> "School leerlingenvervoer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "School leerlingen vervoer"@nl ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "School leerlingenvervoer"@nl ;
     <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> .
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/1725fe88-d4aa-425e-bf19-f6ba9491c1f2>
