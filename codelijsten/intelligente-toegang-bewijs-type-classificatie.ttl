@@ -6,7 +6,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-BewijsTypeClassificatie/2f3af6a9-00b9-4c3c-8c08-40c969dc0730> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "2f3af6a9-00b9-4c3c-8c08-40c969dc0730" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Vergunning inname openbaar domein"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-BewijsTypeClassificatie> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Vergunning inname openbaar domein"@nl ;

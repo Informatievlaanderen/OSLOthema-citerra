@@ -6,7 +6,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Tijdsvenster/4b0ec9f9-a56e-4cf7-90f5-22e52f24cc9b> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "4b0ec9f9-a56e-4cf7-90f5-22e52f24cc9b" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Zone is continu beschikbaar."@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Tijdsvenster> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "24/24"@nl ;
@@ -14,7 +13,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Tijdsvenster/6b923331-6d06-4c57-88e5-48dad1ac041d> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "6b923331-6d06-4c57-88e5-48dad1ac041d" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Zone is beschikbaar tussen dag uren."@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Tijdsvenster> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Dag uren"@nl ;
@@ -22,7 +20,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Tijdsvenster/ee9301e5-4d33-462a-bd6f-6f3d5e154b26> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "ee9301e5-4d33-462a-bd6f-6f3d5e154b26" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Zone is beschikbaar op de dag van de markt."@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Tijdsvenster> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Dag markt"@nl ;

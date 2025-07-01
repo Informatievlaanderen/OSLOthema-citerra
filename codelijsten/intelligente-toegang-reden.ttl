@@ -6,7 +6,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/9bd64686-0add-412c-941f-12a19892b8d3> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "9bd64686-0add-412c-941f-12a19892b8d3" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Garage of standplaats"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Garage of standplaats"@nl ;
@@ -14,7 +13,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/5131f4ca-87ee-48bf-972e-70165681b9c5> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "5131f4ca-87ee-48bf-972e-70165681b9c5" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Gehandicapt"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Gehandicapt"@nl ;
@@ -22,7 +20,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/db9f68b3-b4f9-4a7c-955f-dacb787aecb8> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "db9f68b3-b4f9-4a7c-955f-dacb787aecb8" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Laden/Lossen"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Laden/Lossen"@nl ;
@@ -30,7 +27,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/abb5e6ab-20cc-46a9-b5c7-5fcd69f5a4ec> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "abb5e6ab-20cc-46a9-b5c7-5fcd69f5a4ec" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Levering"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Levering"@nl ;
@@ -38,7 +34,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/63fc892d-68a7-4903-8122-8cbb5969ebf7> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "63fc892d-68a7-4903-8122-8cbb5969ebf7" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Verhuis (2 zones)"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Verhuis (2 zones)"@nl ;
@@ -46,7 +41,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/cd44471b-b8f1-407e-9291-e69b6c8a1ec5> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "cd44471b-b8f1-407e-9291-e69b6c8a1ec5" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Mantelzorger"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Mantelzorger"@nl ;
@@ -54,7 +48,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/1edab828-6c62-426a-bb1d-e6bd8f2dde60> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "1edab828-6c62-426a-bb1d-e6bd8f2dde60" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Zorgverstrekker"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Zorgverstrekker"@nl ;
@@ -62,7 +55,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/5cb42139-e5cf-458d-89ed-dbf9745268d1> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "5cb42139-e5cf-458d-89ed-dbf9745268d1" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Tijdelijk minder mobiel"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Tijdelijk minder mobiel"@nl ;
@@ -70,7 +62,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/c17a7e5e-5c63-4127-98f7-76b25c872b7b> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "c17a7e5e-5c63-4127-98f7-76b25c872b7b" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Jubilaris (minder mobiel)"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Jubilaris (minder mobiel)"@nl ;
@@ -78,7 +69,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/f40b48d8-2f72-489f-8fcf-36f014c8efdb>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "f40b48d8-2f72-489f-8fcf-36f014c8efdb" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Verhuis (1 zone)"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Verhuis (1 zone)"@nl ;
@@ -86,7 +76,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/a7219739-6cd8-408e-8c6e-623639338ab1>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "a7219739-6cd8-408e-8c6e-623639338ab1" ;
     <http://www.w3.org/2004/02/skos/core#definition> "gehandicapte werknemer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "gehandicapte werknemer"@nl ;
@@ -94,7 +83,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/e3c59574-b611-4cad-8c11-4fd8feab0863>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "e3c59574-b611-4cad-8c11-4fd8feab0863" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Tijdelijk minder mobiele werknemer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Tijdelijk minder mobiele werknemer"@nl ;
@@ -102,7 +90,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/9f930a83-ab8b-4a2e-9d1d-39ef23e91a2c>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "9f930a83-ab8b-4a2e-9d1d-39ef23e91a2c" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Verhuis (2 zones)"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Verhuis (2 zones)"@nl ;
@@ -110,7 +97,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/30c7cc38-80cd-42f5-a377-97be3499513e>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "30c7cc38-80cd-42f5-a377-97be3499513e" ;
     <http://www.w3.org/2004/02/skos/core#definition> "School leerlingenvervoer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "School leerlingenvervoer"@nl ;
@@ -118,7 +104,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/1725fe88-d4aa-425e-bf19-f6ba9491c1f2>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "1725fe88-d4aa-425e-bf19-f6ba9491c1f2" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Vervoer Minder mobiele personen"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Vervoer Minder mobiele personen"@nl ;
@@ -126,7 +111,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/d1d5d59c-16f4-4d09-9e36-e0ac52ca5a2e>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "d1d5d59c-16f4-4d09-9e36-e0ac52ca5a2e" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Brandweer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Brandweer"@nl ;
@@ -134,7 +118,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/febac9d4-945c-4347-b25a-4886e477333f>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "febac9d4-945c-4347-b25a-4886e477333f" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Nutsdienst"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Nutsdienst"@nl ;
@@ -142,7 +125,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/05ff8d3f-3992-462e-8b9c-a7285949911a>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "05ff8d3f-3992-462e-8b9c-a7285949911a" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Ziekenvervoer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Ziekenvervoer"@nl ;
@@ -150,7 +132,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/f93a3fbb-fdd1-4a49-94c7-b6f6325c3e59>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "f93a3fbb-fdd1-4a49-94c7-b6f6325c3e59" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Waarde transport"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Waarde transport"@nl ;
@@ -158,7 +139,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/b07644dc-0d8a-4793-9042-24edd6f80beb>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "b07644dc-0d8a-4793-9042-24edd6f80beb" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Bewaking/Beveiliging"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Bewaking/Beveiliging"@nl ;
@@ -166,7 +146,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/6b5cb1db-c9a1-44d2-9e42-615858993892>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "6b5cb1db-c9a1-44d2-9e42-615858993892" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Pechverhelping"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Pechverhelping"@nl ;
@@ -174,7 +153,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/d849ca3d-ffe4-47ec-9f2b-dda1575580d8>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "d849ca3d-ffe4-47ec-9f2b-dda1575580d8" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Politie"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Politie"@nl ;
@@ -182,7 +160,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/246e4b73-a6cd-4dcd-8e95-827889936961>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "246e4b73-a6cd-4dcd-8e95-827889936961" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Openbaar vervoer"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Openbaar vervoer"@nl ;
@@ -190,7 +167,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/3023d1a8-9005-43ee-bfee-49afcc64c35d>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "3023d1a8-9005-43ee-bfee-49afcc64c35d" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Lijkwagens"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijkwagens"@nl ;
@@ -198,7 +174,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/a6e07e35-9c96-4b94-9b9f-895964ca2616>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "a6e07e35-9c96-4b94-9b9f-895964ca2616" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Deelmobiliteit (auto)"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Deelmobiliteit (auto)"@nl ;
@@ -206,7 +181,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/c41b7dfd-583e-47bb-8d30-923ff5bb122c>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "c41b7dfd-583e-47bb-8d30-923ff5bb122c" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Deelmobiliteit (fiets)"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Deelmobiliteit (fiets)"@nl ;
@@ -214,7 +188,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/282f9418-c57b-44ac-aa29-27ae92153e1a>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "282f9418-c57b-44ac-aa29-27ae92153e1a" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Afvalophaling"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Afvalophaling"@nl ;
@@ -222,7 +195,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/0f0661ed-d546-479c-9b8c-3112759384d2>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "0f0661ed-d546-479c-9b8c-3112759384d2" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Textielophaling"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Textielophaling"@nl ;
@@ -230,7 +202,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/da9b6aad-d0f3-468d-b1d1-5d26a4e837f9>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "da9b6aad-d0f3-468d-b1d1-5d26a4e837f9" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Onderhoud"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Onderhoud"@nl ;
@@ -238,7 +209,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/599c0c59-1b11-47cf-bbea-797c2c9129e0>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "599c0c59-1b11-47cf-bbea-797c2c9129e0" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Levering medicijnen"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Levering medicijnen"@nl ;
@@ -246,7 +216,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/d7ba8b73-615b-47d6-850f-5b293213509a>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "d7ba8b73-615b-47d6-850f-5b293213509a" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Toeristisch voertuig"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Toeristisch voertuig"@nl ;
@@ -254,7 +223,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/6a7d352b-fd0e-4cf2-829f-4e4fda3be9f8>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "6a7d352b-fd0e-4cf2-829f-4e4fda3be9f8" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Duurzame stadsdistributie"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Duurzame stadsdistributie"@nl ;
@@ -262,7 +230,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/1ea49b10-8da9-426c-9a19-70142b189828>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "1ea49b10-8da9-426c-9a19-70142b189828" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Markt"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Markt"@nl ;
@@ -270,7 +237,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/c4ecd103-3a91-4f5c-80f2-a637f5dfd28f>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "c4ecd103-3a91-4f5c-80f2-a637f5dfd28f" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Evenement (parking)"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Evenement (parking)"@nl ;
@@ -278,7 +244,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/5bc35319-6825-4f4d-ae7f-66e3fdac48a6>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "5bc35319-6825-4f4d-ae7f-66e3fdac48a6" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Evenement opbouw/afbraak"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Evenement opbouw/afbraak"@nl ;
@@ -286,7 +251,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/8f800b0a-dca9-46d4-b3ab-43559e284c92>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "8f800b0a-dca9-46d4-b3ab-43559e284c92" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Werf"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Werf"@nl ;
@@ -294,7 +258,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-Reden/bdcab092-5236-4925-a514-da0b20f8c48b>
     a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "bdcab092-5236-4925-a514-da0b20f8c48b" ;
     <http://www.w3.org/2004/02/skos/core#definition> "Tijdelijk minder mobiel bestuurslid"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-Reden> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Tijdelijk minder mobiel bestuurslid"@nl ;
