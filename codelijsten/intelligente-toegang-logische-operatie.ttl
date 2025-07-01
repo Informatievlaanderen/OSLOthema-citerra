@@ -6,7 +6,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-LogischeOperatie/b872e78b-6d5f-41ee-aa0a-8ee8c141c7cc> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "b872e78b-6d5f-41ee-aa0a-8ee8c141c7cc" ;
     <http://www.w3.org/2004/02/skos/core#definition> "AND"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-LogischeOperatie> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "AND"@nl ;
@@ -14,7 +13,6 @@
 
 <https://data.vlaanderen.be/id/concept/IntelligenteToegang-LogischeOperatie/be81ccdc-71d3-4730-8301-be3386ca0b5e> 
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://mu.semte.ch/vocabularies/core/uuid> "be81ccdc-71d3-4730-8301-be3386ca0b5e" ;
     <http://www.w3.org/2004/02/skos/core#definition> "OR"@nl ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/IntelligenteToegang-LogischeOperatie> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "OR"@nl ;
