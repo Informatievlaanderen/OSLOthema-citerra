@@ -6,7 +6,7 @@
     "diagram": "OSLO-Mobiliteit-Intelligente-Toegang-v2",
     "template": "mobiliteit-intelligente-toegang-ap.j2",
     "title": "OSLO Mobiliteit: Intelligente Toegang",
-    "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
     "publication-date": "2024-09-24",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
