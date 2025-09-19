@@ -1,6 +1,6 @@
 [
   {
-    "name": "mobiliteit-intelligente-toegang-ap",
+    "name": "mobiliteit-intelligente-toegang",
     "type": "ap",
     "eap": "OSLO-Mobiliteit-Intelligente-Toegang.eap",
     "diagram": "OSLO-Mobiliteit-Intelligente-Toegang-v2",
