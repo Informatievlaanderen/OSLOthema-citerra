@@ -15,3 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - AP/VOC: Replace http://schema.org with https://schema.org
 - AP/VOC: Remove empty `ap-usage-note` values
 - AP/VOC: Capitalise sentences
+
+### Added
+
+- Enum "Toegangstype": tag `ap-definition-nl`
+- Enum "Activiteitstype": tag `ap-definition-nl`
+- Enum "LogischeOperatie": tag `ap-definition-nl`
