@@ -1,17 +1,17 @@
 [
-{
-  "name": "mobiliteit-intelligente-toegang",
-  "type": "voc",
-  "eap": "OSLO-Mobiliteit-Intelligente-Toegang.eap",
-  "diagram": "OSLO-Mobiliteit-Intelligente-Toegang-v2",
-  "template": "mobiliteit-intelligente-toegang-voc.j2",
-  "title": "Vocabularium Mobiliteit: Intelligente Toegang",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-  "publication-date": "2025-12-11",
-  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-  "contributors-file": "stakeholders.csv",
-  "contributors-column": "MijnKolom",
-  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-citerra/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-mobiliteit-intelligente-toegang/index.html"
-}
+  {
+    "name": "mobiliteit-intelligente-toegang",
+    "type": "voc",
+    "eap": "OSLO-Mobiliteit-Intelligente-Toegang.eap",
+    "diagram": "OSLO-Mobiliteit-Intelligente-Toegang-v2",
+    "template": "mobiliteit-intelligente-toegang-voc.j2",
+    "title": "Vocabularium Mobiliteit: Intelligente Toegang",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "publication-date": "2025-12-11",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "MijnKolom",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-citerra/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-mobiliteit-intelligente-toegang/index.html"
+  }
 ]
