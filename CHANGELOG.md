@@ -21,3 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum "Toegangstype": tag `ap-definition-nl`
 - Enum "Activiteitstype": tag `ap-definition-nl`
 - Enum "LogischeOperatie": tag `ap-definition-nl`
+
+### Fixed
+
+- Enum "Toegangstype": tag `uri`
+- Enum "Activiteitstype": tag `uri`
+- Enum "LogischeOperatie": tag `uri`
