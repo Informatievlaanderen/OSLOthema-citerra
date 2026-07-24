@@ -27,3 +27,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum "Toegangstype": tag `uri`
 - Enum "Activiteitstype": tag `uri`
 - Enum "LogischeOperatie": tag `uri`
+- Enum "Agent": tag `uri`
